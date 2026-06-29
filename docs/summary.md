@@ -1,4 +1,4 @@
-# AI Portfolio Development Journal
+# AI Portfolio Development Summary
 
 ---
 
