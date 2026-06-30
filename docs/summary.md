@@ -36,22 +36,20 @@ Finally, a GitHub repository was created, Git was initialized, and the project w
 
 Develop the navigation bar, hero section, and the first interactive landing page with animations.
 
----
-
 # Day 02 – Hero Section & Landing Page
 
 **Date:** 30 June 2026
 
-The second day focused on transforming the project foundation into the first visual version of the portfolio. A responsive navigation bar was developed to serve as the primary navigation system for the website. The landing page was designed with a modern dark theme, incorporating a clean layout that reflects the futuristic AI-inspired design planned for the project.
+Day 2 was dedicated to designing and refining the complete landing page, transforming the initial project structure into a modern AI-inspired portfolio interface. The primary focus was on creating a premium first impression while establishing a scalable component architecture for future development.
 
-The Hero section was implemented, introducing the portfolio owner with a professional headline, supporting description, and primary action buttons. Typography, spacing, and layout were refined to establish a consistent visual identity. The overall page structure was organized using reusable React components, making future development more modular and maintainable.
+A glassmorphism-based navigation bar was developed with a clean layout, smooth hover interactions, active navigation indicators, and a dedicated resume download button. The navigation structure was organized using reusable constants, allowing easier maintenance and expansion as new sections are introduced.
 
-Responsive behavior was verified to ensure the landing page adapts correctly across desktop, tablet, and mobile devices. Basic animations and transitions were introduced to improve user experience while keeping the application lightweight and scalable.
+The Hero section was completely redesigned with a balanced two-column layout. Professional typography, improved spacing, and refined content hierarchy were implemented to clearly introduce the portfolio owner as an Artificial Intelligence and Machine Learning Engineer. Primary call-to-action buttons, social media links, and a custom scroll indicator were integrated to improve accessibility and user engagement.
 
-By the end of Day 2, the portfolio had evolved from a basic project foundation into the first interactive version of the website, providing a solid base for building the remaining sections in the upcoming development sessions.
+Several iterations were carried out to improve alignment, spacing, responsiveness, and visual consistency across the landing page. The project structure was further modularized by separating the Navbar, Hero, and Orb into independent reusable React components, making future updates significantly easier.
 
----
+An animated orb prototype was also developed using CSS and Framer Motion to explore the visual direction for the Hero section. Although multiple animation techniques, glow effects, orbit rings, and particle concepts were implemented, it became clear that a CSS-based solution could not accurately reproduce the premium particle globe envisioned for the project.
 
-# Day 03
+To achieve the desired futuristic appearance, the project was upgraded to use **Three.js**, **React Three Fiber**, **Drei**, and **React Postprocessing**, establishing the technical foundation required for a fully interactive 3D globe. This marks the transition from traditional CSS animation to GPU-accelerated WebGL rendering, which will be implemented in the next development phase.
 
-*(To be updated after completing Day 3.)*
+By the end of Day 2, the portfolio had evolved into a polished landing page featuring a premium navigation system, refined Hero section, reusable component architecture, improved animations, and a prepared Three.js environment for advanced 3D graphics. This provides a strong foundation for implementing the interactive particle globe and the remaining portfolio sections during Day 3.
